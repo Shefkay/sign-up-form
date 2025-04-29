@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 5rem;
+  padding: 2rem;
+  background-color: #ccc;
+}
+
+table {
+  width: 100%;
+  border: 1;
+  /* background-color: #000000; */
+}
+
+tr:nth-child(1) {
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: .5rem 0;
+  color: tomato;
+}
+
+._herder {
+  text-align: center;
+  color: #ffffff;
+  background-color: #000;
+}
+
+._data-one {
+  text-align: center;
+}
+
+.backTo_form {
+  margin: 1rem;
+}

@@ -26,6 +26,8 @@ if(isset ($_REQUEST['Submit'])){
   $sql = "INSERT INTO users_data(name, phone, email, username, password, date)VALUES('$name', '$phone', '$email', '$username', '$password', '$date')";
 
   $conn = mysqli_query($php_class, $sql) or die(mysqli_error($php_class));
+
+  header("Location: view-details.php");
 };
 
 ?>
@@ -74,6 +76,9 @@ if(isset ($_REQUEST['Submit'])){
         </div>
         <div class="form_group">
           <input type="submit" name="Submit" id="submit">
+        </div>
+        <div class="form_group">
+          <a href="view-details.php">View Users</a>
         </div>
       </form>
     </div>
